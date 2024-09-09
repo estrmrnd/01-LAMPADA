@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap");
+
+header,
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+button {
+  width: 80px;
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+button#turnOnOff {
+  background-color: green;
+  color: white;
+  border-radius: 8px;
+  border: none;
+}
+
